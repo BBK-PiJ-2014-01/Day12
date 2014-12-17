@@ -14,5 +14,15 @@ public class PersonTest {
         String expected = "DRY";
         assertEquals(output, expected);
     }
+
+    @Test
+    public void testsNameWithTwoSpaces() {
+        Person p = new Person();
+        String input = "Dereck  Robert Yssirt";
+        String output = p.getInitials(input);
+        String expected = "DRY";
+        assertEquals(output, expected);
+    }
+
 }
 
