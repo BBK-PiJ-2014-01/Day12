@@ -7,6 +7,7 @@ Exercise 1:
  - *.bat plugin(s) set-up to run batch files from within IntelliJ
 
 Exercise 2:
+ - Class HashUtilities copied over into package "Source"
  - Class TestHashUtilities implemented
  - Code complete
 
