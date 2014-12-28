@@ -2,6 +2,9 @@
  * Created by Pierre on 28/12/2014.
  */
 import java.util.Random;
+
+import Source.HashUtilities;
+
 import org.junit.*;
 import static org.junit.Assert.*;
 
