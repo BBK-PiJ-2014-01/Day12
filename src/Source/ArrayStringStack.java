@@ -1,3 +1,7 @@
+package Source;
+
+import Source.StringStack;
+
 /**
  * Implementation of interface stack using an array as support. 
  */

@@ -1,23 +1,25 @@
+package Source;
+
 /**
  * Created by PierreM on 17/11/2014.
  */
-public class PersonQueueImpl1 implements PersonQueue {
+public class PersonQueueImpl2 implements PersonQueue {
 
     private Person head;
+    private Person tail;
 
-    public PersonQueueImpl1() {
+    public PersonQueueImpl2() {
         head = null;
+        tail = null;
     }
 
     public void insert(Person person) {
         if (head == null) {
             head = person;
+            tail = person;
         } else {
-            Person pointer = head;
-            while (pointer.getNextPerson() != null) {
-                pointer = pointer.getNextPerson();
-            }
-            pointer.setNextPerson(person);
+            tail.setNextPerson(person);
+            tail = tail.getNextPerson();
         }
     }
 
