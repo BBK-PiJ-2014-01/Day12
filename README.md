@@ -16,6 +16,27 @@ Exercise 3:
  - Class PersonTest implemented with additional test testsNameWithTwoSpaces replicating bug
  - Bug fixed. testsNameWithTwoSpaces() is passing
 
+Exercise 4.1:
+ - Class TestStack implemented
+ - Testing pop(), peek(), push() methods are working fine, for a stack defined as type StringStack
+ - Code complete and test passing
+
+Exercise 4.2:
+ - Class TestQueue implemented
+ - Testing insert() & retrieve() methods are working fine, for a queue defined as type PersonQueue
+ - Code complete and test passing
+
+Exercise 4.3:
+ - Class TestSet implemented
+ - Testing verbose(), containsVerbose() & toString()
+ - Code complete and test passing
+
+ Exercise 5:
+ - Class TestSimpleMap implemented
+ - Testing put(), get(), remove(), isEmpty() methods are working fine.
+ - Code complete and test passing
+
+
 
 
 
